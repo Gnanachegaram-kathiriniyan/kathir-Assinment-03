@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+      <!-- <link href="./Bootstrap/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="style.css">
+
+      <title>Ass-03</title>
+   </head>
+   <body>
+      <!-- nav bar section -->
+      <section class="container">
+         <nav class="navbar container navbar-expand-lg fixed-top ">
+            <div class="one1">
+            <a class="navbar-brand" href="#">
+            <img src="./Assets/favicon.png" id="logocol">
+            <span class="logoname">PLANTEX</span></a>
+            </div>
+            <ul class="pop">
+               <li><a href="#contact">Contact us</a></li>
+               <li><a href="#Question">FAQS</a></li>
+               <li><a href="#proof">Products</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#home" class="active">Home</a></li>
+            </ul>
+            <img src="./Assets/brightness-high-fill.svg" onclick="myFunction()" class="sun">
+            <img src="./Assets/moon.svg" onclick="myFunction()" class="moon">
+         </nav>
+      
+      <!-- home page -->
+      <section id="home">
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="row ">
+                     <div class="col-sm-6" style=" margin-top: 120px; padding-left: 100px;">
+                        <h1  >
+                           Plants will make <br>your life better 
+                        </h1>
+                        <p>
+                           Create incridible plant design for your offices<br> of aprtments add fregrense to your new<br> ideas
+                        </p>
+                        <button class="one">
+                        Explore➘
+                        </button>
+                     </div>
+                     <div class="col-sm-6">
+                        <img src="./Assets/home.png" style="width: 75%; margin-top: 95px; padding-left: 120px;"alt=""/>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="row ">
+                     <div class="col-sm-6" style=" margin-top: 120px; padding-left: 100px;">
+                        <h1  >
+                           Lorem ipsum dolor sit. <br>your life better 
+                        </h1>
+                        <p>
+                           Lorem ipsum, dolor sit amet consectetur adipisicing<br> elit. Mollitia nulla consequatur voluptatibus <br>eligendi porro.
+                        </p>
+                        <button class="one">
+                        Explore➘
+                        </button>
+                     </div>
+                     <div class="col-sm-6">
+                        <img src="./Assets/product2.png" style="width: 75%; margin-top: 95px; padding-left: 120px;"alt=""/>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="row ">
+                     <div class="col-sm-6" style=" margin-top: 120px; padding-left: 100px;">
+                        <h1  >
+                           Lorem ipsum dolor sit <br>amet consectetur adipisicing.
+                        </h1>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Doloribus deserunt non dicta <br>labore minima.
+                        </p>
+                        <button class="one">
+                        Explore➘
+                        </button>
+                     </div>
+                     <div class="col-sm-6">
+                        <img src="./Assets/product1.png" style="width: 75%; margin-top: 95px; padding-left: 120px;"alt=""/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+         </div>
+         <!--home page 2 -->
+         <div class="row">
+            <div class="col-sm-6">
+               <img src="./Assets/about.png" style="width: 75%; margin-top: 95px; padding-left: 120px;"alt=""/>
+            </div>
+            <div class="col-sm-6" style=" margin-top: 70px; padding-left: 100px;">
+               <h1>Who we really are &<br> Why choose us</h1>
+               <p>We have over 4000+ unbaised reviews and our<br>custombers trust our plants process and delivery <br>services every time </p>
+               <p>✅ We always deliver on time<br>
+                  ✅ We give you suides to protect and care for your <br>
+                  ✅ We always come over for a check-up after sale<br>
+                  ✅ 100% money back guranteed
+               </p>
+            </div>
+            <div>
+            </div>
+         </div>
+      </section>
+      </section>
+      <!-- section3 -->
+      <section>
+      </section>
+      <section id="proof">
+         <h3 style="text-align: center;">Our Products</h3>
+                  <div id="myBtnContainer" class="two2">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('latest')">Latest</button>
+            <button class="btn" onclick="filterSelection('featured')"> Featured</button>
+            </div>
+         <div class="row">
+            <div class="col-sm-3 filterDiv latest">
+               <img src="./Assets/product1.png" alt="" class="pro"/>
+               <p id="texa">American Marigold<br>$23.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv featured">
+               <img src="./Assets/product2.png" alt="" class="pro"/>
+               <p id="texa">Black Eyed Sasan<br>$25.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv latest">
+               <img src="./Assets/product3.png" alt="" class="pro"/>
+               <p id="texa">Bleading Heart<br>$30.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv featured">
+               <img src="./Assets/product4.png" alt="" class="pro"/>
+               <p id="texa">Bloody Carneshal<br>$55.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-3 filterDiv latest">
+               <img src="./Assets/product5.png" alt="" class="pro"/>
+               <p id="texa">Common Yarrow<br>$76.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv featured">
+               <img src="./Assets/product6.png" alt="" class="pro"/>
+               <p id="texa">Button Fly Wood<br>$65.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv latest">
+               <img src="./Assets/product4.png" alt="" class="pro"/>
+               <p id="texa">Bloody Carneshal<br>$55.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+            <div class="col-sm-3 filterDiv featured">
+               <img src="./Assets/product1.png" alt="" class="pro"/>
+               <p id="texa">American Marigold<br>$23.45<br>
+                  ⭐⭐⭐⭐⭐
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- section 5 -->
+      <section id="Question">
+         <h1 style="text-align: center;">Some common Questions<br>Were often asked.</h1>
+         <div class="row">
+            <div class="faq-question" onclick="toggleAnswer('q1')">+ My flowers are falling off or dying?</div>
+            <div class="faq-answer" id="q1">
+               <p>Possible causes for your flowers falling off or dying include inadequate watering, insufficient sunlight, or nutrient deficiencies. Ensure proper watering, provide adequate sunlight, 
+                  and consider fertilizing to address potential nutrient issues
+               </p>
+               <div class="faq-question" onclick="toggleAnswer('q2')">+ What causes leaves to become pate?</div>
+               <div class="faq-answer" id="q2">
+                  <p>Leaf paleness can result from insufficient sunlight, nutrient deficiencies like iron or nitrogen, or overwatering that limits root oxygen uptake. Assess lighting conditions, 
+                     adjust fertilization, and ensure proper watering to address leaf paleness.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- section 6 -->
+      <section class="boss">
+         <h1 style="text-align: center;">What Say Clients</h1>
+         <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio mollitia totam perferendis<br> laborum nisi magni. Magni quo ipsam iure minus.</p>
+         <div class="row">
+            <div class="col-sm-4">
+               <img src="./Assets/boss2.jpeg">
+               <p>KAthiriniyan<br>Client<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corporis, minus aliquid voluptates ipsam, adipisci reiciendis, cumque vero voluptatem eaque dolorum. Dolore, atque. Ad, dignissimos! Sapiente fuga eum iure esse!
+            </div>
+            <div class="col-sm-4">
+               <img src="./Assets/boss3.jpeg">
+               <p>Amutha<br>Client<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corporis, minus aliquid voluptates ipsam, adipisci reiciendis, cumque vero voluptatem eaque dolorum. Dolore, atque. Ad, dignissimos! Sapiente fuga eum iure esse!</p>
+            </div>
+            <div class="col-sm-4">
+               <img src="./Assets/boss2.jpeg">
+               <p>Kalaimagal<br>Client<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corporis, minus aliquid voluptates ipsam, adipisci reiciendis, cumque vero voluptatem eaque dolorum. Dolore, atque. Ad, dignissimos! Sapiente fuga eum iure esse!</p>
+            </div>
+         </div>
+      </section>
+      <!-- section form -->
+      <section>
+         <div class="row" style="  background-color:  rgb(42, 75, 42);">
+         <div class="col-sm-6" style="  background-color:  rgb(42, 75, 42);">
+            <h1 style="text-align: center;">Contact info:</h1>
+            <p style="padding-left: 20px;">Fill the form and our team will get to back <br>to you with 24 hours<br></p>
+            <p id="text">📞+999-888-777</p>
+            <p id="text">✉example@gamil.com all reseverd</p>
+            <p id="text">📌SriLanka North province<br>Jaffna<br>123-456-789</p>
+         </div>
+         <div class="col-sm-6">
+         <form onsubmit="return Form()">
+            <label for="name">First Name:</label>
+            <input type="text" id="firstname" name="name">
+            <label for="name">Last Name:</label>
+            <input type="text" id="lastname" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Submit</button>
+         </form>
+         <div class="col-sm-6">
+         </div>
+      </section>
+      <!-- section 7 -->
+      <section class="pam">
+         <div id="map" class="container hr-ques"></div>
+         </section>
+
+      
+      <section id="contact">
+         <div class="row">
+            <div class="col-3">
+               <h6><img src="./Assets/favicon.png" id="logocol">PLANTEX</h6>
+               <p>Subscribe to our new stetter<br>to say update</p>
+               <br>
+               <section style="background-color: silver;">
+                  <p>Enter  Mail<button style="margin: 10px;";>Subscribe➘</button></p>
+               </section>
+            </div>
+            <div class="col-3">
+               <h6>Our Address</h6>
+               <p>📌 SriLanka North province<br>Jaffna<br>📞 123-456-789</p>
+            </div>
+            <div class="col-3">
+               <h6>Contact Us</h6>
+               <p>📞 +999-888-777<br><img src="./Assets/twitter.svg"><img src="./Assets/whatsapp.svg"><img src="./Assets/facebook.svg"></p>
+            </div>
+            <div class="col-3">
+               <h6>We accept all<br>credit cards</h6>
+               <img src="./Assets/card1.png"><img src="./Assets/card2.png"><img src="./Assets/card3.png"><img src="./Assets/card4.png">
+            </div>
+         </div>
+      </section>
+      <footer style="text-align: center;">example@gamil.com all reseverd</footer>
+      <script>
+         const activeLink=document.querySelectorAll('ul li a');
+         for(let clickTab of activeLink){  
+         clickTab.onclick=function(){
+         let activeClass=document.querySelectorAll('li a.active');
+         activeClass[0].classList.remove('active')
+         clickTab.classList.add('active'); 
+         }  
+         }
+         function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+         }
+         function toggleAnswer(questionId) {
+             var answer = document.getElementById(questionId);
+             if (answer.style.display === 'none') {
+                 answer.style.display = 'block';
+             } else {
+                 answer.style.display = 'none';
+             }
+         }
+         
+         function Form() {
+         var name = document.getElementById("firstname").value;
+         var name = document.getElementById("lastname").value;
+         var email = document.getElementById("email").value;
+         var phone = document.getElementById("phone").value;
+         var message = document.getElementById("message").value;
+         
+         // Check if any field is empty
+         if (!firstname||!lastname || !email || !phone || !message) {
+         alert("Please enter the FirstName/LastName/Email/Phone/Message.");
+         return false;
+         }
+         
+         // Validate phone number
+         if (!/^\d{10}$/.test(phone)) {
+         alert("Enter a valid phone number.");
+         return false;
+         }
+         
+         // Validate message length
+         if (message.length < 2 || message.length > 120) {
+         alert("Message must be between 2 and 120 characters.");
+         return false;
+         }
+         
+         // If all validations pass
+         alert("Wel come PLantex");
+         return true;
+         }
+         filterSelection("all")
+            function filterSelection(c) {
+              var x, i;
+              x = document.getElementsByClassName("filterDiv");
+              if (c == "all") c = "";
+              for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+              }
+            }
+            
+            function w3AddClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+              }
+            }
+            
+            function w3RemoveClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+              }
+              element.className = arr1.join(" ");
+            }
+            
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
+
+
+            function initMap() {
+    var options= {
+        zoom:20,
+        center:{lat:9.657770,lng:80.159210}
+        }
+        var googlemap = new google.maps.Map(document.getElementById("map"), options);
+        }
+         
+      </script>
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUZ61A_lK8Em8_DQ6kSlGzX-SDBK1lEKg&callback=initMap"></script>
+      <script src="script.js"></script> 
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>      
+   </body>
+</html>

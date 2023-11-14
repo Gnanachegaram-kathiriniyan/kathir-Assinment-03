@@ -1,0 +1,162 @@
+
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    float: right;
+    padding: 15px;
+    color:black;
+  }
+
+      li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+  }
+  .dark-mode li a{
+    color:white;
+  }
+  
+.one{
+  background-color: green;
+  border-radius: 10%;
+}
+
+.two{
+  margin-right: 100px;
+}
+
+ #logocol{
+  background-color: green;
+  width:20px;
+  margin-bottom: 10px;
+ } 
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.pop{
+  padding-left: 300px;
+}
+
+
+.sun{
+  font-weight: 700; 
+  background-color: white;
+  margin-bottom: 15px;
+  display: inline;
+}
+
+.moon{
+  display: none;
+  margin-bottom: 15px;
+  font-weight: 700; 
+}
+
+#myCheck{
+  padding-left: 100px;
+}
+
+.active{
+  border-bottom: solid;
+  border-color: green;
+}
+.dark-mode .logoname {
+  color: white;
+}
+
+.dark-mode .sun{
+  display: none;
+}
+
+.dark-mode .moon{
+  display: inline;
+  background-color: white;
+}
+
+.mapouter{
+  width: 75%;
+  height: 100%;
+}
+
+.pro{
+  height:250px;
+  width: 200px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#text{
+  padding-left: 30px;
+}
+#imgs{
+  padding-bottom: 0px;
+  padding-right: 20px;
+}
+#texa{
+  padding-left: 35px;
+}
+.boss{
+  padding: 35px;
+}
+
+#Question{
+  padding: 35px;
+}
+
+.navbar  {
+  background-color:white;
+}
+
+.dark-mode .navbar{
+  background-color: black;
+}
+
+.filterDiv{
+  display: none;
+}
+.show{
+  display:block;
+}
+#map{
+  height: 50vh;
+    width:100%;
+    position: relative;
+}
+.one1{
+  padding-left: 100px;
+}
+.two2{
+  text-align:center ;
+}
+
+.pam{
+  width: 100%;
+  height: 400px;
+}
